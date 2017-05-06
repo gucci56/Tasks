@@ -1,0 +1,134 @@
+body {
+  height: 2000px;
+}
+
+.layer {
+  width: 375px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+.layer3 {
+ border: solid 0.1em #424242;
+ margin-top: 73px;
+ position: absolute;
+ background-color: #EEEEEE;
+ width: 347px;
+ height: 497px;
+ }
+
+.layer2 {
+ border: solid 0.1em #424242;
+ margin-top: 86px;
+ margin-left: 13px;
+ position: absolute;
+ background-color: #BDBDBD;
+ width: 348px;
+ height: 498px;
+ }
+
+ .layer1 {
+  border: solid 0.1em #424242;
+  margin-left: 26px;
+  margin-top: 100px;
+  position: absolute;
+  background-color: #9E9E9E;
+  width: 348px;
+  height: 497px;
+ }
+
+
+
+
+
+.content {
+  font: 100% 'Myriad Pro';
+  font-size: 0.5em;
+  color: #757575;
+  line-height: 123%;
+  letter-spacing: 0.01em;
+}
+
+
+.post_content {
+  margin-top: 10px;
+  font: 150% 'Myriad Pro';
+  color: #616161;
+  padding: 3px 20px 7px 20px;
+}
+
+
+.rubric1 {
+  margin: 0 0 0 3px;
+  padding: 0 20px 10px 16px;
+}
+
+.rubric2 {
+  margin: 0 0 0 3px;
+  padding: 0 20px 20px 16px;
+}
+
+ .rubric1 img {
+   padding: 0 15px 0 0;
+   float: left;
+   width: 139px;
+ }
+
+ .rubric2 img {
+   padding: 2px 1px 0 5px;
+   float: right;
+   width: 94px;
+ }
+
+
+  .span {
+    font: 100% 'Myriad Pro';
+    color: #424242;
+    font-size: 1em;
+    padding: 23px 20px 7px 20px;
+  }
+
+  .span1 {
+    font: 150% 'Myriad Pro';
+    color: #424242;
+    padding: 16px 20px 0px 20px;
+  }
+
+  .layer_span {
+    margin-top: 5px;
+    font: 100% 'Myriad Pro';
+    line-height: 123%;
+    color: gray;
+  }
+
+
+
+
+
+
+
+
+  .image_left_top {
+    float: left;
+    margin: 0 20px 0 0;
+  }
+
+  .image_right_top {
+    float: right;
+    margin: 0 2px 0 0;
+  }
+
+  .image_left_bot {
+    float: left;
+    margin: 3px 20px 0 0;
+  }
+
+  .image_right_bot {
+    float: right;
+    margin: 4px 1px 0 0;
+  }
