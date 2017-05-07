@@ -3,48 +3,82 @@ body {
 }
 
 .layer {
-  width: 375px;
+  right: 10px;
+  width: 350px;
   height: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  margin: 78px auto;
 }
 
+.fixed_img {
+  position: fixed;
+  top: 458px;
+  right: 40px;
+}
 
-
-
-
-.layer3 {
+.sheet3 {
  border: solid 0.1em #424242;
- margin-top: 73px;
  position: absolute;
  background-color: #EEEEEE;
- width: 347px;
- height: 497px;
+ width: 345px;
+ height: 500px;
  }
 
-.layer2 {
+.sheet2 {
+ left: 13px;
+ top: 13px;
  border: solid 0.1em #424242;
- margin-top: 86px;
- margin-left: 13px;
  position: absolute;
  background-color: #BDBDBD;
- width: 348px;
- height: 498px;
+ width: 345px;
+ height: 500px;
  }
 
- .layer1 {
-  border: solid 0.1em #424242;
-  margin-left: 26px;
-  margin-top: 100px;
+ .sheet1 {
+  left: 26px;
+  top: 26px;
   position: absolute;
+  border: solid 0.1em #424242;
   background-color: #9E9E9E;
-  width: 348px;
-  height: 497px;
+  width: 345px;
+  height: 500px;
  }
 
+ .tab1 {
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 5px;
+   border: solid 2px;
+   left: 287px;
+   top: 31px;
+   width: 70px;
+   height: 20px;
+   background-color: #22A7F0;
+   position: absolute;
+ }
 
+ .tab2 {
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   border: solid 2px;
+   top: 29px;
+   left: 308px;
+   width: 70px;
+   height: 19px;
+   background-color: #26A65B;
+   position: absolute;
+ }
 
-
+ .tab3 {
+   background-color: #E08A1E;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   border: solid 2px;
+   top: 27px;
+   left: 330px;
+   width: 70px;
+   height: 20px;
+   position: absolute;
+ }
 
 .content {
   font: 100% 'Myriad Pro';
@@ -54,7 +88,6 @@ body {
   letter-spacing: 0.01em;
 }
 
-
 .post_content {
   margin-top: 10px;
   font: 150% 'Myriad Pro';
@@ -62,10 +95,9 @@ body {
   padding: 3px 20px 7px 20px;
 }
 
-
 .rubric1 {
   margin: 0 0 0 3px;
-  padding: 0 20px 10px 16px;
+  padding: 0 20px 2px 16px;
 }
 
 .rubric2 {
@@ -85,33 +117,37 @@ body {
    width: 94px;
  }
 
-
-  .span {
+  .p_heading1 p {
     font: 100% 'Myriad Pro';
     color: #424242;
     font-size: 1em;
-    padding: 23px 20px 7px 20px;
+    padding: 25px 0 7px 18px;
+    margin: 0;
   }
 
-  .span1 {
+  .p_heading2 p {
     font: 150% 'Myriad Pro';
     color: #424242;
-    padding: 16px 20px 0px 20px;
+    margin: 0;
+    padding: 9px 20px 0px 20px;
   }
 
-  .layer_span {
-    margin-top: 5px;
+  .layer_p {
+    margin-top: 15px;
+    padding: 0;
     font: 100% 'Myriad Pro';
     line-height: 123%;
     color: gray;
   }
 
-
-
-
-
-
-
+.post_end  {
+  text-align: center;
+  margin: 135px 19px 0 19px;
+  font: 77% 'Myriad Pro';
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  color: gray;
+}
 
   .image_left_top {
     float: left;
@@ -120,7 +156,7 @@ body {
 
   .image_right_top {
     float: right;
-    margin: 0 2px 0 0;
+    margin: 0 0 0 0;
   }
 
   .image_left_bot {
@@ -130,5 +166,5 @@ body {
 
   .image_right_bot {
     float: right;
-    margin: 4px 1px 0 0;
+    margin: 4px 0 0 0;
   }
